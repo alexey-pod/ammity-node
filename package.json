@@ -1,0 +1,33 @@
+{
+	"name": "code",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"server": "nodemon"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"bluebird": "^3.5.0",
+		"body-parser": "^1.19.0",
+		"co": "^4.6.0",
+		"cookie-parser": "^1.4.4",
+		"express": "^4.16.4",
+		"express-session": "^1.16.2",
+		"mongoose": "^4.12.0",
+		"mysql2": "^1.6.5",
+		"mysql2-model": "0.0.0",
+		"nconf": "^0.10.0",
+		"serve-favicon": "^2.5.0"
+	},
+	"devDependencies": {
+		"babel-eslint": "^10.0.2",
+		"eslint": "^5.16.0",
+		"eslint-config-airbnb": "^18.0.1",
+		"eslint-plugin-html": "^5.0.3",
+		"eslint-plugin-import": "^2.18.2",
+		"nodemon": "^1.18.10",
+		"prettier": "^1.16.4"
+	}
+}

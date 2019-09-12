@@ -1,0 +1,35 @@
+{
+	"root": true,
+	"extends": ["eslint:recommended"],
+	"plugins": ["html"],
+	"globals": {
+		"__dirname": true
+	},
+	"env": {
+		"browser": true,
+		"commonjs": true
+	},
+	"parserOptions": {
+		"sourceType": "module",
+		"allowImportExportEverywhere": true
+	},
+	"parser": "babel-eslint",
+	"rules": {
+		"indent": [1, "tab"], // Величина отступа 1 TAB
+		"linebreak-style": ["error", "windows"], // правильный перевод строки для Windows 'CRLF', для unix 'LF'
+		"no-console": "off", // разрешить консоль
+		"no-unused-vars": [0], // отключить проверку неиспользуемых переменных
+		"space-before-blocks": 1, // отступ перед блоками
+		"keyword-spacing": ["warn", { "after": true }], // отступ после ключевых слов
+		"space-infix-ops": "warn", // пробелы между знаком равно
+		"key-spacing": ["warn", { "afterColon": true }], //
+		"no-tabs": 0, // разрешить табы
+		"quotes": [2, "single"], // двойные кавычки для строки
+		"no-use-before-define": "warn", // нельзя использовать переменные перед объявлением
+		"operator-assignment": 0,
+		"prefer-template": 0,
+		"brace-style": ["error", "1tbs", { "allowSingleLine": true }],
+		"no-var": "error",
+		"arrow-body-style": 0 // разрешить стрелочные функции
+	}
+}
