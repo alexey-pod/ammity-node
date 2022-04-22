@@ -18,7 +18,7 @@
 		"mongoose": "^4.12.0",
 		"mysql2": "^1.6.5",
 		"mysql2-model": "0.0.0",
-		"nconf": "^0.10.0",
+		"nconf": "^0.11.4",
 		"serve-favicon": "^2.5.0"
 	},
 	"devDependencies": {
